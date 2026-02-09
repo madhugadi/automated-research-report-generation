@@ -1145,9 +1145,6 @@ wheels = [
 name = "multi-agent-automated-research-report-generation"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "ipykernel" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -1155,6 +1152,7 @@ dev = [
     { name = "bcrypt" },
     { name = "fastapi" },
     { name = "httpx" },
+    { name = "ipykernel" },
     { name = "jinja2" },
     { name = "langchain-community" },
     { name = "langchain-core" },
@@ -1175,7 +1173,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ipykernel", specifier = ">=7.2.0" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -1183,6 +1180,7 @@ dev = [
     { name = "bcrypt", specifier = ">=4.1.2" },
     { name = "fastapi", specifier = "<=0.115.6" },
     { name = "httpx", specifier = "<=0.28.1" },
+    { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "jinja2", specifier = "<=3.1.6" },
     { name = "langchain-community", specifier = "<=0.3.29" },
     { name = "langchain-core", specifier = ">=0.3.75,<=0.3.78" },

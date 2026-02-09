@@ -1,0 +1,7 @@
+{"timestamp": "2026-02-09T09:55:35.687657Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2026-02-09T09:55:35.688922Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2026-02-09T09:55:35.690655Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2026-02-09T09:55:35.691655Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-02-09T09:55:35.694655Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-02-09T09:56:07.008802Z", "level": "info", "event": "Loading LLM"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
