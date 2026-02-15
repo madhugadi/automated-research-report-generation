@@ -1,4 +1,0 @@
-{"timestamp": "2026-02-09T09:54:04.086519Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
-{"timestamp": "2026-02-09T09:54:04.087519Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
-{"timestamp": "2026-02-09T09:54:04.088521Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
-{"timestamp": "2026-02-09T09:54:04.089518Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
